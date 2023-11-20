@@ -1,0 +1,411 @@
+[
+    {
+        "id": "microprocesador-01",
+        "titulo": "MICROPROCESADOR INTEL PENTIUM GOLD G6400 S1200",
+        "imagen": "./img/microprocesadores/Microprocesador01.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 109790
+    },
+    {
+        "id": "microprocesador-02",
+        "titulo": "MICROPROCESADOR AMD RYZEN 3 3200G WRAITH STEALTH ZEN2 AM4",
+        "imagen": "./img/microprocesadores/Microprocesador02.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 156640
+    },
+    {
+        "id": "microprocesador-03",
+        "titulo": "MICROPROCESADOR AMD RYZEN 5 5600X 6/12 4.6GHZ S/G ZEN3",
+        "imagen": "./img/microprocesadores/Microprocesador03.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 298660
+    },
+    {
+        "id": "microprocesador-04",
+        "titulo": "MICROPROCESADOR AMD RYZEN 5 7600 RAPHAEL ZEN4 AM5",
+        "imagen": "./img/microprocesadores/Microprocesador04.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 424580
+    },
+    {
+        "id": "microprocesador-05",
+        "titulo": "MICROPROCESADOR INTEL CORE I5 12600K ALDERLAKE S1700 12VA",
+        "imagen": "./img/microprocesadores/Microprocesador05.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 490460
+    },
+    {
+        "id": "microprocesador-06",
+        "titulo": "MICROPROCESADOR AMD RYZEN 9 5900X 12/24 4.8GHZ S/G S/C ZEN3",
+        "imagen": "./img/microprocesadores/Microprocesador06.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 629549
+    },
+    {
+        "id": "microprocesador-07",
+        "titulo": "MICROPROCESADOR INTEL CORE I9 11900K ROCKET LAKE 8/16 5.3GHZ",
+        "imagen": "./img/microprocesadores/Microprocesador07.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 732039
+    },
+    {
+        "id": "microprocesador-08",
+        "titulo": "MICROPROCESADOR INTEL CORE I9 12900K ALDERLAKE S1700 12VA",
+        "imagen": "./img/microprocesadores/Microprocesador08.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 922369
+    },
+    {
+        "id": "microprocesador-09",
+        "titulo": "MICROPROCESADOR CPU AMD RYZEN 9 7950 X3D RAPHAEL ZEN4 AM5",
+        "imagen": "./img/microprocesadores/Microprocesador09.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 1162479
+    },
+    {
+        "id": "microprocesador-10",
+        "titulo": "MICROPROCESADOR INTEL CORE I9 13900K RAPTORLAKE S1700 13VA",
+        "imagen": "./img/microprocesadores/Microprocesador10.webp",
+        "categoria": {
+            "nombre": "Microprocesador",
+            "id": "microprocesadores"
+        },
+        "precio": 1288399
+    },
+  
+
+
+    {
+        "id": "monitores-01",
+        "titulo": "MONITOR 24 LED SAMSUNG T350 FHD IPS 5MS 75HZ",
+        "imagen": "./img/monitores/Monitor01.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 121999
+    },
+    {
+        "id": "monitores-02",
+        "titulo": "MONITOR 27 E-VIEW 271AXA VGA/HDMI FHD 60HZ",
+        "imagen": "./img/monitores/Monitor02.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 161040
+    },
+    {
+        "id": "monitores-03",
+        "titulo": "MONITOR 27 REDRAGON MIRROR JADE FHD 1MS 165HZ",
+        "imagen": "./img/monitores/Monitor03.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 189990
+    },
+    {
+        "id": "monitores-04",
+        "titulo": "MONITOR 26 LG LED 26WQ500-B ULTRAWIDE 75HZ",
+        "imagen": "./img/monitores/Monitor04.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 241570
+    },
+    {
+        "id": "monitores-05",
+        "titulo": "MONITOR 24 LG 24GN60R-B IPS FHD 144HZ",
+        "imagen": "./img/monitores/Monitor05.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 300130
+    },
+    {
+        "id": "monitores-06",
+        "titulo": "MONITOR 27 SAMSUNG LED ODDYSSEY G4 240HZ",
+        "imagen": "./img/monitores/Monitor06.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 336740
+    },
+    {
+        "id": "monitores-07",
+        "titulo": "MONITOR 29 LG 29WQ600-B IPS WFHD 75HZ ULTRAWIDE",
+        "imagen": "./img/monitores/Monitor07.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 387199
+    },
+    {
+        "id": "monitores-08",
+        "titulo": "MONITOR 32 SAMSUNG LED FLAT 4K SMART TV M7",
+        "imagen": "./img/monitores/Monitor08.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 483150
+    },
+    {
+        "id": "monitores-09",
+        "titulo": "MONITOR 27 ZOWIE XL2746K LED",
+        "imagen": "./img/monitores/Monitor09.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 819889
+    },
+    {
+        "id": "monitores-10",
+        "titulo": "MONITOR 55 SAMSUNG ODYSSEY ARK CURVO 1000R 4K 1MS 165HZ",
+        "imagen": "./img/monitores/Monitor10.webp",
+        "categoria": {
+            "nombre": "Monitores",
+            "id": "monitores"
+        },
+        "precio": 2928199
+    },
+    
+
+    
+    {
+        "id": "notebooks-01",
+        "titulo": "NOTEBOOK AIWA CLOUDBOOK CA141-C INTEL N4020 4GB 128GB 14 W11",
+        "imagen": "./img/notebooks/Notebook01.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 256209
+    },
+    {
+        "id": "notebooks-02",
+        "titulo": "NOTEBOOK BANGHO MAX L5 INTEL CORE I5 1135G7 8GB SSD 240GB 15.6",
+        "imagen": "./img/notebooks/Notebook02.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 459990
+    },
+    {
+        "id": "notebooks-03",
+        "titulo": "NOTEBOOK ASUS X515EA I3 1115G4 4GB SSD 256GB 15.6 FHD",
+        "imagen": "./img/notebooks/Notebook03.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 545699
+    },
+    {
+        "id": "notebooks-04",
+        "titulo": "NOTEBOOK DELL INSPIRON 3511 I3 1115G4 4GB SSD 256GB 15.6",
+        "imagen": "./img/notebooks/Notebook04.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 644189
+    },
+    {
+        "id": "notebooks-05",
+        "titulo": "NOTEBOOK DELL INSPIRON 3525 AMD RYZEN 5 5500U 8GB SSD 256GB 15.6 FHD W11",
+        "imagen": "./img/notebooks/Notebook05.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 710069
+    },
+    {
+        "id": "notebooks-06",
+        "titulo": "NOTEBOOK LENOVO IDEAPAD 1 RYZEN 7 3700U 8GB SSD 512GB 15.6",
+        "imagen": "./img/notebooks/Notebook06.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 790599
+    },
+    {
+        "id": "notebooks-07",
+        "titulo": "NOTEBOOK BANGHO GAME MASTER 15Z12 I5 12500H 16GB 1TB GTX 1650 15.6 FHD",
+        "imagen": "./img/notebooks/Notebook07.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 1011549
+    },
+    {
+        "id": "notebooks-08",
+        "titulo": "NOTEBOOK BANGHO GAME MASTER 15Z12 CORE I5 12500H 16GB 1TB GTX 1650 15.6 W11",
+        "imagen": "./img/notebooks/Notebook08.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 1104719
+    },
+    {
+        "id": "notebooks-09",
+        "titulo": "NOTEBOOK ASUS TUF GAMING A15 FA506ICB-HN118W RYZEN 7 4800H 16GB SSD 512GB RTX 3050 15.6 W11",
+        "imagen": "./img/notebooks/Notebook09.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 1464089
+    },
+    {
+        "id": "notebooks-10",
+        "titulo": "NOTEBOOK ASUS ROG ZEPHYRUS G14 GA401IHR-K2053T IHR RYZEN 7 4800HS 16GB 512GB 1650 14 W10",
+        "imagen": "./img/notebooks/Notebook10.webp",
+        "categoria": {
+            "nombre": "Notebooks",
+            "id": "notebooks"
+        },
+        "precio": 1756909
+    },
+
+
+
+    {
+        "id": "placasvideo-01",
+        "titulo": "PLACA DE VIDEO MSI NVIDIA GEFORCE RTX 3050 VENTUS 2X OC 8GB GDDR6",
+        "imagen": "./img/placas de video/PlacaVideo01.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-02",
+        "titulo": "PLACA DE VIDEO POWERCOLOR AMD RADEON RX 6700 XT RED DEVIL 12GB",
+        "imagen": "./img/placas de video/PlacaVideo02.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-03",
+        "titulo": "PLACA DE VIDEO ASUS NVIDIA GEFORCE RTX 3060 TI DUAL OC WHITE LHR",
+        "imagen": "./img/placas de video/PlacaVideo03.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-04",
+        "titulo": "PLACA DE VIDEO ASUS ROG STRIX NVIDIA GEFORCE RTX 4070TI 12GB GAMING GDDR6X",
+        "imagen": "./img/placas de video/PlacaVideo04.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-05",
+        "titulo": "PLACA DE VIDEO PNY NVIDIA GEFORCE RTX 4080 XLR8 GAMING VERTO EPIC X 16GB GDDR6X",
+        "imagen": "./img/placas de video/PlacaVideo05.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-06",
+        "titulo": "PLACA DE VIDEO GIGABYTE NVIDIA GEFORCE RTX 4080 AERO OC 16GB GDDR6X",
+        "imagen": "./img/placas de video/PlacaVideo06.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-07",
+        "titulo": "PLACA DE VIDEO GIGABYTE NVIDIA GEFORCE RTX 4080 EAGLE 16GB GDDR6X",
+        "imagen": "./img/placas de video/PlacaVideo07.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-08",
+        "titulo": "PLACA DE VIDEO ASUS ROG STRIX NVIDIA GEFORCE RTX 4080 OC 16GB GDDR6X",
+        "imagen": "./img/placas de video/PlacaVideo08.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-09",
+        "titulo": "PLACA DE VIDEO PALIT NVIDIA GEFORCE RTX 4090 GAMEROCK 24GB GDDR6X",
+        "imagen": "./img/placas de video/PlacaVideo09.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "placasvideo-10",
+        "titulo": "PLACA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 4090 AMP WHITE EXTREME 24GB GDDR6X",
+        "imagen": "./img/placas de video/PlacaVideo10.webp",
+        "categoria": {
+            "nombre": "Placas de video",
+            "id": "placasvideo"
+        },
+        "precio": 10000
+    }
+]
