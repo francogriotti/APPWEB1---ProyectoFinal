@@ -5,8 +5,9 @@ fetch("./js/productos.json")
     .then(data => {
         productos = data;
         cargarProductos(productos);
-    })
+    });
 
+const productoTemplate = document.getElementById('producto-template');
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
@@ -15,27 +16,22 @@ const numerito = document.querySelector("#numerito");
 
 botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
-}))
+}));
 
 function cargarProductos(productosElegidos) {
-
     contenedorProductos.innerHTML = "";
 
     productosElegidos.forEach(producto => {
+        const productoCard = productoTemplate.content.cloneNode(true);
 
-        const div = document.createElement("div");
-        div.classList.add("producto");
-        div.innerHTML = `
-            <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-            <div class="producto-detalles">
-                <h3 class="producto-titulo">${producto.titulo}</h3>
-                <p class="producto-precio">$${producto.precio}</p>
-                <button class="producto-agregar" id="${producto.id}">Agregar</button>
-            </div>
-        `;
+        productoCard.querySelector('.producto-imagen').src = producto.imagen;
+        productoCard.querySelector('.producto-imagen').alt = producto.titulo;
+        productoCard.querySelector('.producto-titulo').innerText = producto.titulo;
+        productoCard.querySelector('.producto-precio').innerText = `$${producto.precio}`;
+        productoCard.querySelector('.producto-agregar').id = producto.id;
 
-        contenedorProductos.append(div);
-    })
+        contenedorProductos.append(productoCard);
+    });
 
     actualizarBotonesAgregar();
 }
@@ -93,7 +89,7 @@ function agregarAlCarrito(e) {
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
 
-    if(productosEnCarrito.some(producto => producto.id === idBoton)) {
+    if (productosEnCarrito.some(producto => producto.id === idBoton)) {
         const index = productosEnCarrito.findIndex(producto => producto.id === idBoton);
         productosEnCarrito[index].cantidad++;
     } else {

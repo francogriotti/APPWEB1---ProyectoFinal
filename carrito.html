@@ -46,16 +46,13 @@
             <h2 class="titulo-principal">Carrito</h2>
             <div class="contenedor-carrito">
                 <p id="carrito-vacio" class="carrito-vacio"><b>Tu carrito está vacío, sumá productos!</b></p>
-
-                <div id="carrito-productos" class="carrito-productos disabled">
-                </div>
+                <div id="carrito-productos" class="carrito-productos disabled"></div>
                 <div id="carrito-acciones" class="carrito-acciones disabled">
                     <div class="carrito-acciones-izquierda">
                         <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
                     </div>
                     <div class="carrito-acciones-derecha">
-                        <div id="total" class="carrito-acciones-total">
-                        </div>
+                        <div id="total" class="carrito-acciones-total"></div>
                         <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
                     </div>
                 </div>
@@ -64,6 +61,45 @@
         </main>
     </div>
     
+    <template id="carrito-producto-template">
+        <div class="carrito-producto">
+            <img class="carrito-producto-imagen" alt="">
+            <div class="carrito-producto-titulo">
+                <small>Título</small>
+                <h3></h3>
+            </div>
+            <div class="carrito-producto-cantidad">
+                <small>Cantidad</small>
+                <div class="cantidad-container">
+                    <button class="cantidad-btn-disminuir" data-action="disminuir"><i class="bi bi-dash"></i></button>
+                    <p>  </p>
+                    <button class="cantidad-btn-incrementar" data-action="incrementar"><i class="bi bi-plus"></i></button>
+                </div>
+            </div>
+            <div class="carrito-producto-precio">
+                <small>Precio</small>
+                <p></p>
+            </div>
+            <div class="carrito-producto-subtotal">
+                <small>Subtotal</small>
+                <p></p>
+            </div>
+            <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+        </div>
+    </template>
+    <template id="carrito-envio-template">
+        <h3>Datos envío</h3>                
+        <div class="carrito-envio datos contenedor-datos">
+            <div>
+                <input type="text" id="direccion" placeholder="Dirección" required>
+                <input type="text" id="ciudad" placeholder="Ciudad" required>
+            </div>
+            <div>
+                <input type="number" min="0" id="codigo" placeholder="Código postal" required>
+                <input type="number" min="0" id="telefono" placeholder="Teléfono" required>
+            </div>
+        </div>
+    </template>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
     <script src="./js/carrito.js"></script>

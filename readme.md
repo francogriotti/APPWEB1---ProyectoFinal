@@ -14,10 +14,15 @@ Este repositorio contiene el código fuente de un sitio web llamado TecnoShop. A
 ***
 ## Estructura del repositorio
 
-- **index.html**: Página principal del sitio TecnoShop.
+- **index.html**: Página para acceder al sitio TecnoShop.
+- **main.html**: Página principal del sitio TecnoShop.
 - **login.html**: Página de inicio de sesión o registro.
 - **carrito.html**: Página del carrito de compras.
-- **css/main.css**: Archivo de estilo principal para el diseño del sitio.
+- **css/main.css**: Archivo de estilo principal para importar los distintos diseños del sitio.
+- **css/forALL.css**: Archivo de estilo para importar diseños en común del sitio.
+- **css/login.css**: Archivo de estilo para importar diseños del login.
+- **css/producto.css**: Archivo de estilo para importar diseños de los productos.
+- **css/responsive.css**: Archivo de estilo para importar diseños responsive del sitio.
 - **js/main.js**: Script principal para la funcionalidad del sitio.
 - **js/login.js**: Script para la gestión de inicio de sesión y registro.
 - **js/carrito.js**: Script para la gestión del carrito de compras.

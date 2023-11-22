@@ -22,34 +22,27 @@ function cargarProductosCarrito() {
         contenedorCarritoProductos.innerHTML = "";
 
         productosEnCarrito.forEach(producto => {
-            const div = document.createElement("div");
-            div.classList.add("carrito-producto");
-            div.innerHTML = `
-                <img class="carrito-producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
-                <div class="carrito-producto-titulo">
-                    <small>Título</small>
-                    <h3>${producto.titulo}</h3>
-                </div>
-                <div class="carrito-producto-cantidad">
-                    <small>Cantidad</small>
-                    <div class="cantidad-container">
-                        <button class="cantidad-btn" data-action="disminuir" data-id="${producto.id}"><i class="bi bi-dash"></i></button>
-                        <p>${producto.cantidad}</p>
-                        <button class="cantidad-btn" data-action="incrementar" data-id="${producto.id}"><i class="bi bi-plus"></i></button>
-                    </div>
-                </div>
-                <div class="carrito-producto-precio">
-                    <small>Precio</small>
-                    <p>$${producto.precio}</p>
-                </div>
-                <div class="carrito-producto-subtotal">
-                    <small>Subtotal</small>
-                    <p>$${producto.precio * producto.cantidad}</p>
-                </div>
-                <button class="carrito-producto-eliminar" id="${producto.id}"><i class="bi bi-trash-fill"></i></button>
-            `;
-
-            contenedorCarritoProductos.append(div);
+            const template = document.getElementById("carrito-producto-template");
+            const clone = document.importNode(template.content, true);
+        
+            clone.querySelector(".carrito-producto-imagen").src = producto.imagen;
+            clone.querySelector(".carrito-producto-imagen").alt = producto.titulo;
+            clone.querySelector(".carrito-producto-titulo h3").textContent = producto.titulo;
+            clone.querySelector(".carrito-producto-cantidad p").textContent = producto.cantidad;
+            clone.querySelector(".carrito-producto-precio p").textContent = `$${producto.precio}`;
+            clone.querySelector(".carrito-producto-subtotal p").textContent = `$${producto.precio * producto.cantidad}`;
+        
+            const cantidadBtnDisminuir = clone.querySelector(".cantidad-btn-disminuir");
+            cantidadBtnDisminuir.setAttribute("data-id", producto.id);
+            cantidadBtnDisminuir.addEventListener("click", actualizarCantidad);
+        
+            const cantidadBtnIncrementar = clone.querySelector(".cantidad-btn-incrementar");
+            cantidadBtnIncrementar.setAttribute("data-id", producto.id);
+            cantidadBtnIncrementar.addEventListener("click", actualizarCantidad);
+        
+            clone.querySelector(".carrito-producto-eliminar").id = producto.id;
+        
+            contenedorCarritoProductos.append(clone);
         });
 
         if (!datosEnvioCompletos) {
@@ -113,22 +106,9 @@ function eliminarDelCarrito(e) {
 botonVaciar.addEventListener("click", vaciarCarrito);
 
 function mostrarFormularioEnvio() {
-    const div1 = document.createElement("div");
-    div1.classList.add("carrito-envio");
-    div1.innerHTML = `
-        <h3>Datos envío</h3>                
-        <div class="carrito-envio datos">
-            <div>
-                <input type="text" id="direccion" placeholder="Dirección" required>
-                <input type="text" id="ciudad" placeholder="Ciudad" required>
-            </div>
-            <div>
-                <input type="number" min="0" id="codigo" placeholder="Código postal" required>
-                <input type="number" min="0" id="telefono" placeholder="Teléfono" required>
-            </div>
-        </div>
-    `;
-    contenedorCarritoProductos.append(div1);
+    const template = document.getElementById("carrito-envio-template");
+    const clone = document.importNode(template.content, true);
+    contenedorCarritoProductos.append(clone);
 }
 
 function vaciarCarrito() {
