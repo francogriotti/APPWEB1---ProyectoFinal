@@ -34,10 +34,26 @@ if (formularioRegistro) {
         };
 
         localStorage.setItem('userData', JSON.stringify(userData));
+        enviarCorreoConfirmacion(userData);
 
         alert('Usuario creado correctamente!');
         window.location.href = './login.html';
     });
+}
+
+function enviarCorreoConfirmacion(userData) {
+    
+    const templateParams = {
+        nombre: userData.nombreCompleto,
+        email: userData.email
+    };
+
+    emailjs.send("TecnoShop", "APPWEB1-Prueba", templateParams)
+        .then(function(response) {
+            console.log("Correo de confirmación enviado con éxito", response);
+        }, function(error) {
+            console.error("Error al enviar el correo de confirmación", error);
+        });
 }
 
 if (formularioLogin) {
